@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Arka plan rengi */
+}
+
+.page-container {
+    max-width: 800px; /* Sayfa genişliği */
+    margin: 40px auto; /* Sayfayı ortala ve kenarlarda 40px boşluk bırak */
+    padding: 20px; /* İçeriğin kenarlardan uzaklığı */
+    background-color: #fff; /* Sayfa arka plan rengi */
+    border-radius: 10px; /* Köşeleri yuvarla */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
+
+.image-container {
+    max-width: 100%;
+    margin: 20px auto; /* Resimler arasında 20px boşluk */
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
