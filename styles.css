@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.logo-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    animation: logoAnimation 2s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Diğer stiller */
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Diğer stiller */
+
+/* Diğer stiller */
+
+.image-container {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Resimler arasında boşluk bırakmak için */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
